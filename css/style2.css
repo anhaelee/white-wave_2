@@ -32,7 +32,7 @@ header .largeNav{ display:block; font-family:'Roboto', 'Sans-serif'; font-weight
 
 
 /* Nav */
-nav{display:block; width:410px; height:20px; position: absolute; right:10px; top:10px; transition: all .5s cubic-bezier(0.4, 0.01, 0.165, 0.99);}
+nav{display:block; width:330px; height:20px; position: absolute; right:10px; top:10px; transition: all .5s cubic-bezier(0.4, 0.01, 0.165, 0.99);}
 nav li{display:inline; color:#333; line-height:20px;}
 nav a{color:#333; font-weight: 400; padding:0 2px 11px 2px; border-bottom:0px #fff; transition: all 0.3s ease-in-out;}
 nav a:hover{padding-bottom:7px; border-bottom:4px solid #bbb; color:#999;}
