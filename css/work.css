@@ -273,16 +273,19 @@ and (min-width:330px) and (max-width: 659px){
 					input::-ms-input-placeholder { color: transparent; } 
 					input::-ms-input-placeholder { color: transparent; }
 
-	main{width:330px; margin-top:100px; padding-top: 0;background: red;}
-	main .thumb{width:46%; height:auto; margin:0 10px 2em 0px; text-align:center;}
+	main{width:100%; margin-top:85px; padding-top: 0;}
+	main .thumb{width:46%; height:auto; margin-left: 10px; margin-bottom: 42px; margin-right:0px;}
 		 .thumb .imgbox figcaption {position:inherit; color:#333; font-size:inherit; font-weight:700; opacity: 1; transition:inherit; transform:inherit; margin-top:5px;}
 		 .thumb p{font-size:inherit; line-height:10px; margin-left: 0; margin-top:3px; margin-bottom:10px;}
-		 #last {margin-right: 10px;}
 		 .sub {width: 100%;}
+		 .subtitle {margin-left: 10px;}
+		 .subplus {margin-right: 10px;}
+		 .subwrap{margin-top: 0; height: 880px; }
+		 .thumb-hover {display:none;}
 	
 		
 	main .imgbox:hover img{-webkit-filter:inherit; -moz-filter:inherit; -o-filter:inherit; -ms-filter:inherit; filter:inherit; }
-		 .subwrap{margin-top: 0; height: 750px;}
+		 
 
 
 
@@ -343,14 +346,16 @@ and (min-width:660px) and (max-width: 1000px){
 		.searchform input{display:none;}
 		.searchform-img{left:10px; top:6px;}
 
-	main{ width:100%; padding-left: 10px; background: red;}
-	main .thumb{width:30%; margin-bottom: 30px; }
+	main{ width: 100%;}
+	main .thumb{width:30.5%; margin-bottom: 30px; }
 		 .thumb .imgbox figcaption {position:inherit; color:#333; width:100%; line-height:25px; font-size:inherit; font-weight:700; opacity: 1; transition:inherit; transform:inherit; margin-top:5px;}
 		 .thumb p{font-size:inherit; margin-top:3px; margin-bottom:10px; line-height:15px;}
-		 .sub {width: 100%; width: 100%; background: }
+		 .sub {width: 100%;}
+		 .thumb-wrap {padding-left: 10px;}
 		 #last {margin-right: 20px;}
 		 .subwrap {height: 730px;}
-		 .subplus {}
+		 .subtitle {margin-left: 10px;}
+		 .subplus {margin-right: 10px;}
 
 	footer{margin-top:50px; width:100%; padding:0 1em 0 1em;}
 	footer .footerBox{display:none;}
@@ -398,11 +403,16 @@ and (min-width:1001px) and (max-width: 1320px){
 		.searchform input{display:none;}
 		.searchform-img{left:10px; top:6px;}
 
-	main{width:100%; margin-top:100px;}
+	main{width:100%; }
 	main p{line-height: 18px;}
-	main .thumb{width:23%; height:470px; margin:0 1% 30px 1%;}
-	.thumb .imgbox figcaption {position:inherit; width:100%; color:#333; font-size:inherit; font-weight:700; opacity: 1; line-height:18px; transition:inherit; transform:inherit; margin-top:5px;}
+	main .thumb{width:23%;  margin:0 1% 30px 1%;}
+		 .thumb .imgbox figcaption {position:inherit; width:100%; color:#333; font-size:inherit; font-weight:700; opacity: 1; line-height:18px; transition:inherit; transform:inherit; margin-top:5px;}
 		 .thumb p{font-size:inherit; line-height:18px; margin-top:3px; margin-bottom:10px;}
+		 .sub {width: 100%;}
+		 #last {margin-right: 10px;}
+		 .subwrap {height: 610px;}
+		 .subplus {margin-right: 10px;}
+		 .subtitle {margin-left: 10px;}
 
 	footer{margin-top:50px; width:100%; padding:0 1em 0 1em; height:180px;}
 	footer .footerBox{display:none;}
