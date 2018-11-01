@@ -73,7 +73,7 @@ main {width:1300px; margin:auto; padding-top: 60px; margin-top:40px; margin-bott
 	.track_wrap {width: 1300px; height: auto;}
 	.profile {position:relative; float: left; width: 1300px; height: 170px; padding:0; padding-top:20px; border-top:1px solid #DDDDDD; }
 	.prodiv {float: left; margin-right: 20px;}
-	.profile #img {width: 100px; height: 100px; overflow: hidden;}
+	.profile #img {width: 90px; height:90px; overflow: hidden;}
 	.profile #img img {width: 100%; border-radius: 50%;}
 
 	.profile #title {height: 110px;}
@@ -81,14 +81,13 @@ main {width:1300px; margin:auto; padding-top: 60px; margin-top:40px; margin-bott
 	.profile .track {font-weight: 200; font-size: 13px; color: #999999; margin-bottom: 15px;}
 	.profile .interest {font-weight: 200; font-size: 13px; color: #555555;}
 	.profile p { margin-bottom: 8px; font-weight: 200; font-size: 13px; color: #555555;}
-	.profile .snsicon {margin-top:12px; width: 200px; height: 40px;}
-	.fa { padding-left: 5px; padding-right: 20px; padding-top: 5px; padding-bottom: 20px; font-size: 18px; width: 1px; height: 1px; text-align: center; text-decoration: none; margin-right:3px; border-radius: 20%;}
-	.fa-instagram {background: #999999;;color: white;}
-	.fa-vimeo {background: #999999; color: white;}
-	.fa-pinterest {background: #999999; color: white;}
+	.profile .snsicon {margin-top:12px; width: 200px; height: 30px; }
+	.fa {top: 0; background:#999999; color:white; border-radius: 7px; margin-right: 5px; width:30px; height: 30px;}
+	.fa-instagram {font-size: 23px; line-height: 32px; text-align: center; }
+	.fa-behance {font-size: 16px; line-height: 37px; text-align: center; }
 
 	.fa-instagram:hover {background: #CCCCCC; color: white;}
-	.fa-vimeo:hover {background : #CCCCCC; color: white;}
+	.fa-behance:hover {background : #CCCCCC; color: white;}
 	.fa-pinterest:hover {background: #CCCCCC; color: white;}
 
 
@@ -294,21 +293,24 @@ and (min-width:330px) and (max-width: 659px){
 					input::-ms-input-placeholder { color: transparent; } 
 					input::-ms-input-placeholder { color: transparent; }
 
-	main{width:330px; margin-top:25px; }
+	main{width:100%; margin-top:25px; }
 	main .thumb{height:auto; margin:0 10px 5em 10px; text-align:center;}
 		 .thumb p{font-size:inherit; line-height:10px; margin-top:3px; margin-bottom:10px;}
-		 .profile {width: 330px; height: 160px; padding-top:15px; border-top:0.5px solid #DDDDDD; }
-		 .sub {width: 330px; height: 35px; margin-bottom: 10px; }
-		 .subtitle p {font-size: 16px;}
-		 .profile .imgbox{width: 105px; height: auto; overflow: hidden;}
-		 .profile #title {height: auto; margin-bottom: 20px;}
+		 .profile {width: 100%; height: 160px; padding-left: 10px; padding-top:15px; border-top:0.5px solid #DDDDDD; }
+		 .sub {width: 100%; height: 35px; margin-bottom: 10px; }
+		 .subtitle p {font-size: 16px; margin-left: 10px;}
+		 .subplus {margin-right: 10px;}
+		 .profile .imgbox{width: 115px; height: auto; overflow: hidden;}
+		 .profile #title {height: auto; margin-bottom: 2ss0px;}
 		 .profile .snsicon {display: none;}
 		 .profile .track {display: none;}
-		
+		 .profile .interest {font-size: 12px;}
+		 .profile p {font-size: 12px; line-height: 8px;}
+
 		 .profile h2 {font-size: 14px;}
-		 .profile #work {position: absolute; left:0; bottom: 15px; width: 330px; height: auto;}
+		 .profile #work {position: absolute; left:10px; bottom: 15px; width: 100%; height: auto;}
 		 .profile #work li{display:inline-block; margin-left:0; margin-right: 5px; float: left; }
-		 .profile #img {width: 50px; height: 50px;}
+		 .profile #img {width: 48px; height: 48px;}
 		 
 .subplus {display:inline-block; position:absolute; top: 0; right:0px; width: 350px; height: 35px; font-weight: 300; font-size: 14px; color:#999999;}
 .tablinks {display:inline; float:right; line-height:35px; margin-left: 15px; color:}
