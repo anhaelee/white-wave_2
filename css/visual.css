@@ -76,8 +76,8 @@ main { width:1300px; margin:auto; padding-top: 60px; margin-top:40px; margin-bot
 	.thumb:hover .thumb-hover{opacity:1; background: rgba(0, 0, 0, 0.2); transition: all .6s cubic-bezier(0.4, 0.01, 0.165, 0.99);}
 
 	.thumb .textbox {margin-top: 10px;}
-	.textbox figcaption { margin-bottom: 7px; font-size: 15px; font-weight: 700; opacity: 1; }
-	.textbox p{ font-size: 13px; font-weight: 400; opacity: 1; color: #777777;}
+	.textbox figcaption { margin-bottom: 7px; font-size: 15px; font-weight: 700; color:#555555; opacity: 1; }
+	.textbox p{ font-size: 13px; font-weight: 200; opacity: 1; color: #777777;}
 	.thumb:hover figcaption {opacity:0.8;}
 	
 
@@ -268,12 +268,17 @@ and (min-width:330px) and (max-width: 659px){
 					input::-ms-input-placeholder { color: transparent; } 
 					input::-ms-input-placeholder { color: transparent; }
 
-	main{width:330px; margin-top:25px;}
-	main .thumb{height:auto; margin:0 10px 5em 10px; float: none; text-align:center;}
-		 .thumb .imgbox figcaption {position:inherit; color:#333; font-size:inherit; font-weight:700; opacity: 1; transition:inherit; transform:inherit; margin-top:5px;}
-		 .thumb p{font-size:inherit; line-height:10px; margin-top:3px; margin-bottom:10px;}
+	main{width:100%; margin-top:25px;}
+	main .thumb{width:46%; height:auto; margin-left:10px; margin-bottom:20px; margin-right:0;}
+		 .thumb-wrap {width: 100%;}
+		 .thumb .textbox figcaption {position:inherit; font-size:14px; font-weight:700; opacity: 1; transition:inherit; transform:inherit; margin-top:5px;}
+		 .thumb p{font-size:12px; line-height:10px; margin-top:3px; margin-bottom:10px;}
 	main .imgbox:hover img{-webkit-filter:inherit; -moz-filter:inherit; -o-filter:inherit; -ms-filter:inherit; filter:inherit; }
 		 .subtitle {margin-left: 10px;}
+		 #last {margin-right: 0;}
+		 .thumb-hover {display:none;}
+
+
 	footer{margin-top:50px; height:100px; width:100%; padding:0 1em 0 1em;}
 	footer .footerBox, .footerImg{display:none;}
 	footer .footerInfo{width:100%; margin:0em 1.5em 2em 0; line-height:18px;}
@@ -331,10 +336,14 @@ and (min-width:660px) and (max-width: 1000px){
 		.searchform input{display:none;}
 		.searchform-img{left:10px; top:6px;}
 
-	main{ width:100%; margin-top:100px;}
-	main .thumb{width:30%; height:420px; margin:0 1% 0 1.6%; }
-		 .thumb .imgbox figcaption {position:inherit; color:#333; width:100%; line-height:25px; font-size:inherit; font-weight:700; opacity: 1; transition:inherit; transform:inherit; margin-top:5px;}
+	main{ width:100%; }
+	main .thumb{width:30.5%; margin-bottom: 20px; margin-right: 10px; margin-left: 10px;}
+		 .subtitle {margin-left: 10px;}
+		 .thumb-wrap{width: 100%;}
+		 .thumb .imgbox figcaption {position:inherit; width:100%; line-height:25px; font-size:inherit; font-weight:700; opacity: 1; transition:inherit; transform:inherit; margin-top:5px;}
 		 .thumb p{font-size:inherit; margin-top:3px; margin-bottom:10px; line-height:15px;}
+		 .thumb-hover {display:none;}
+		 #last {margin-right: 10px;}
 
 	footer{margin-top:50px; width:100%; padding:0 1em 0 1em;}
 	footer .footerBox{display:none;}
@@ -382,11 +391,19 @@ and (min-width:1001px) and (max-width: 1320px){
 		.searchform input{display:none;}
 		.searchform-img{left:10px; top:6px;}
 
-	main{width:100%; margin-top:100px;}
+	main{width:100%; }
 	main p{line-height: 18px;}
-	main .thumb{width:23%; height:470px; margin:0 1% 30px 1%;}
+	main .thumb{width:23%; margin:0 1% 30px 1%;}
 	.thumb .imgbox figcaption {position:inherit; width:100%; color:#333; font-size:inherit; font-weight:700; opacity: 1; line-height:18px; transition:inherit; transform:inherit; margin-top:5px;}
 		 .thumb p{font-size:inherit; line-height:18px; margin-top:3px; margin-bottom:10px;}
+		 .subtitle {margin-left: 10px;}
+		 .thumb-wrap{width: 100%;}
+		 .thumb .imgbox figcaption {position:inherit; width:100%; line-height:25px; font-size:inherit; font-weight:700; opacity: 1; transition:inherit; transform:inherit; margin-top:5px;}
+		 .thumb p{font-size:inherit; margin-top:3px; margin-bottom:10px; line-height:15px;}
+		 .thumb-hover {display:none;}
+		 #last {margin-right: 10px;}
+
+
 
 	footer{margin-top:50px; width:100%; padding:0 1em 0 1em; height:180px;}
 	footer .footerBox{display:none;}
