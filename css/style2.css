@@ -379,7 +379,7 @@ and (min-width:330px) and (max-width: 659px){
 					input::-ms-input-placeholder { color: transparent; } 
 					input::-ms-input-placeholder { color: transparent; }
 
-	main{width:330px; margin-top:100px;}
+	main{width:100%; }
 	main .thumb{height:auto; margin:0 10px 5em 10px; text-align:center;}
 		 .thumb .imgbox figcaption {position:inherit; color:#333; font-size:inherit; font-weight:700; opacity: 1; transition:inherit; transform:inherit; margin-top:5px;}
 		 .thumb p{font-size:inherit; line-height:10px; margin-top:3px; margin-bottom:10px;}
@@ -395,13 +395,14 @@ and (min-width:330px) and (max-width: 659px){
 	#toTop:hover {background-color:#222;}
 
 /* 2depth */
-article{ width:100%; margin-top:60px;}
+article{ width:100%;}
 
-article .work-image{ width:100%; padding:0; margin:0;}
+article .work-image{ width:95%; padding:0; margin-left: 10px; }
 article .work-image img{ margin-bottom:10px;}
 		.work-image iframe{width:100%; margin-bottom:10px;}
+		.tabcontent {position: absolute; top: 90px; left: 10px; margin-top: 20px;}
 
-article .work-text{ width:93%; padding:0; margin:0 3.5% 50px 3.5%;}
+article .work-text{position: relative; left: 0; top: 0; width:95%; padding:0; margin-left:10px;}
 		.script strong{font-size:14px;}
 
 		.student { margin-top:30px;}
@@ -413,7 +414,7 @@ article .work-text{ width:93%; padding:0; margin:0 3.5% 50px 3.5%;}
 		.otherTitle{color:#999; margin-bottom:1em;}
 		.otherM {margin-bottom:0.8em; width:100%;}
 article hr { margin:30px 0 10px 0; border:0.5px solid #ddd; }
-article #share {position:absolute; right:10px; top:2px; cursor: pointer;}
+article #share {position:absolute; right: 0; top:2px; cursor: pointer;}
 		.shareBox{transform:scale(0.9);}
 
 }
@@ -442,7 +443,7 @@ and (min-width:660px) and (max-width: 1000px){
 		.searchform input{display:none;}
 		.searchform-img{left:10px; top:6px;}
 
-	main{ width:100%; margin-top:100px;}
+	main{ width:100%; }
 	main .thumb{width:30%; height:420px; margin:0 1.6% 0 1.6%; }
 		 .thumb .imgbox figcaption {position:inherit; color:#333; width:100%; line-height:25px; font-size:inherit; font-weight:700; opacity: 1; transition:inherit; transform:inherit; margin-top:5px;}
 		 .thumb p{font-size:inherit; margin-top:3px; margin-bottom:10px; line-height:15px;}
@@ -458,13 +459,14 @@ and (min-width:660px) and (max-width: 1000px){
 	#toTop:hover {background-color:#222;}
 
 /* 2depth */
-article{ width:100%; margin-top:100px;}
+article{ width:100%;}
 
-article .work-image{ width:100%; padding:0; margin:0;}
+article .work-image{ width:97%; padding:0; margin-left: 10px; margin-top: 20px;}
 article .work-image img{ margin-bottom:10px;}
 		.work-image iframe{width:100%; margin-bottom:10px;}
+		.tabcontent {position: absolute; top: 90px; left: 10px; margin-top: 20px;}
 
-article .work-text{ width:60%; padding:0; float:left; margin:0 20% 3em 20%;}
+article .work-text{position: relative; left: 0; top: 0; width:97%; padding:0; float:left; margin-left: 10px;}
 		.script strong{font-size:14px;}
 		.student { margin-top:30px;}
 		.otherB {display:none;}
@@ -496,7 +498,7 @@ and (min-width:1001px) and (max-width: 1320px){
 	main{width:100%; margin-top:100px;}
 	main p{line-height: 18px;}
 	main .thumb{width:23%; height:470px; margin:0 1% 30px 1%;}
-	.thumb .imgbox figcaption {position:inherit; width:100%; color:#333; font-size:inherit; font-weight:700; opacity: 1; line-height:18px; transition:inherit; transform:inherit; margin-top:5px;}
+		 .thumb .imgbox figcaption {position:inherit; width:100%; color:#333; font-size:inherit; font-weight:700; opacity: 1; line-height:18px; transition:inherit; transform:inherit; margin-top:5px;}
 		 .thumb p{font-size:inherit; line-height:18px; margin-top:3px; margin-bottom:10px;}
 
 	footer{margin-top:50px; width:100%; padding:0 1em 0 1em; height:180px;}
@@ -510,11 +512,12 @@ and (min-width:1001px) and (max-width: 1320px){
 	#toTop:hover {background-color:#222;}
 
 /* 2depth */
-article{ width:100%;}
+article{ width:100%; }
 
-article .work-image{ width:64%; padding:0; margin:0;}
+article .work-image{ width:58%; padding:0; margin-left:10px;}
 article .work-image img{ margin-bottom:10px;}
 		.work-image iframe{width:100%; margin-bottom:10px;}
+
 
 article hr { margin:30px 0 10px 0; border:0.5px solid #ddd; }
 }
